@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.d1ae3f5c.css",
+    "main.js": "/build/static/js/main.a01e67cb.js",
+    "static/js/787.0bca8be2.chunk.js": "/build/static/js/787.0bca8be2.chunk.js",
+    "static/media/mohs10logo.png": "/build/static/media/mohs10logo.4d5238999f54eede4eba.png",
+    "static/media/m10logo.png": "/build/static/media/m10logo.8791494a169662a580b4.png",
+    "index.html": "/build/index.html",
+    "main.d1ae3f5c.css.map": "/build/static/css/main.d1ae3f5c.css.map",
+    "main.a01e67cb.js.map": "/build/static/js/main.a01e67cb.js.map",
+    "787.0bca8be2.chunk.js.map": "/build/static/js/787.0bca8be2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1ae3f5c.css",
+    "static/js/main.a01e67cb.js"
+  ]
+}

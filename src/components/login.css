@@ -1,0 +1,186 @@
+
+ body{
+    background-color: #f2f2f2;} 
+
+.headingg {
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    /* font-size: 30px; */
+    color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-style: italic;
+    
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Login{
+   
+    max-width: 600px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: .75rem;
+    
+ } 
+ 
+.Login img {
+    width: 30%;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    
+} 
+
+.Login input{
+    width: 85%;
+    height: 40px;
+    margin: 25px auto;
+    display: block;
+    border: 1px solid rgba(116, 116, 116, 0.76);
+    border-radius: .75rem; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    padding-left: 15px;
+    background-color:#f3f5f80b;
+}
+
+.Login h6{
+    font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 15px;
+    color:  #9670d9;
+    font-style: italic;
+    text-align: center;
+}
+
+#submitbtn {
+  background:  #0c0c0c;
+  width: 515px;
+  padding: 0 30px;
+ 
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  height: 50px;
+  transition: 0.15s;
+  
+  margin: 15px 5% 120px 0;
+  cursor: default;
+}
+#submitbtn:hover {
+    background-color: #14daec;
+}
+
+
+
+
+
+
+
+
+/* .main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #e1e3eb;
+  }
+  .sub-main {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+    
+    padding-top: 30px;
+    border-radius: 40px; 
+    background-color: white;
+    margin-left: 430px;
+    
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container-image {
+    background-color: rgb(223, 221, 221); 
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 115px;
+    width: 115px;
+  }
+  .profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 130px;
+  }  */
+/* 
+  input{
+      width: 300px;
+      height: 50px;
+      border-radius: 60px;
+      box-shadow: inset 0px 0px 25px 0px #888888a6;
+      border: none;
+      outline: none;
+      background-color: #fff;
+  } */
+
+  /* .email{
+      height: 25px;
+      width: 25px;
+      position: absolute;
+      padding: 14px 0 0 25px;
+  }
+
+  .name{
+      padding-left: 70px;
+      font-size: 18px;
+  }
+  .second-input{
+      padding-top: 20px;
+  }
+
+  button{
+      width: 380px;
+      height: 50px;
+      border-radius: 60px;
+      background-color: #b103fc;
+      color: white;
+      font-size: 25px;
+      border: none;
+  }
+  .login-button{
+      padding-top: 25px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+   a{
+       color: blue;
+   } */
+
+  /*  body {
+    background: linear-gradient(to top, #04025a, #1a0d0d3d, #030250); */
+    /* background-image: url('C:\xampp\htdocs\lms\src\IMAGE\scott-graham-EPppwcVTZEo-unsplash (1).jpg'); Replace 'your-image-url.jpg' with the path to your image */
+    /* background-size: cover; 
+     background-repeat: no-repeat;  
+     
+     background-attachment: fixed;
+  background-position: center center;
+  background: linear-gradient(to top, #036A97, #203A43, #036A97);
+  background:linear-gradient(to top, #080397B2, #362043A3, #97036491)
+  
+  }
+   */
+  
+
+  

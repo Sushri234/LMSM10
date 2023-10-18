@@ -1,0 +1,95 @@
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.leave-form {
+    display: flex;
+    flex-direction: column;
+    max-width: max-content; 
+    margin: 20px auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='date'],
+  input[type='int'],
+  input[type='password'],
+  textarea[type='text'],
+  select {
+     padding: 5px;
+     width: 500px;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #29323c;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #39d3ee;
+  }
+
+  .leave-form textarea {
+    /* width: 100%; */
+    height: 4rem; /* Set the row height to 4 rows */
+    padding: 8px;
+    resize: vertical;
+    /* Add any additional styles for the textarea */
+  }
+  @media screen and (max-width: 600px) {
+    .leave-form {
+      max-width: 100%;
+      padding: 10px;
+    }
+  
+    input[type='text'],
+    input[type='date'],
+    select {
+      padding: 6px;
+      margin-top: 5px;
+      width: 100%;
+    }
+  }
+  
+  .logoutcss{
+    background:  #f2f2f2;
+    color: #0c82a6;
+    padding: 200px 400px ; 
+}
+
+.logoutcss {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.leave-form {
+  background-color: #c2c2c2;
+  border-radius: 10px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 50px;
+}

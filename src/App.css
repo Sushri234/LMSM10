@@ -1,0 +1,110 @@
+/* src/App.css (or any CSS file) */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;500&family=Roboto:wght@300;400;700;900&display=swap');
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    /* font-family: 'Poppins', sans-serif; */
+}
+.container{
+    display:flex;
+}
+
+main{
+    width: 100%; 
+     padding: 20px;
+}
+.sidebar{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    height: 150vh;
+    width: 100px;
+    transition: all 0.5s; 
+    min-height: 100%;
+}
+
+.nosidebar{
+    display:none
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.logo-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Automatically adjust the height based on the aspect ratio */
+    display: block; /* Ensures the image behaves as a block element */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .logo-image {
+      max-width: 70%;
+      height: auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo-image {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  
+
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  
+  
+  /* password toggle */
+  .password-input-container {
+    position: relative;
+  }
+  
+  .password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+  }
+  
