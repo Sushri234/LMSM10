@@ -63,9 +63,9 @@ const fArray = Array.from(tbl1);
 return(
 <div>
     <div className="dashboard-container">
-        <div className="column">
+        <div className="column" >
          {pdetails.empID? ( 
-            <div className="card">
+            <div className="card" style={{overflowY: "auto",scrollbarWidth:"none"}}>
                 <h2>Your Profile</h2>
                 <p>Employee ID : {pdetails.empID}</p>
                 <br></br>
@@ -86,7 +86,7 @@ return(
             ) : null }
         </div>
         <div className="column">
-            <div className="card">
+            <div className="card" style={{overflowY: "auto",scrollbarWidth:"none"}}>
                 <h2>HR Policies</h2>
                 <p>
                     <a
@@ -101,7 +101,7 @@ return(
             </div>
         </div>
         <div className="column">
-            <div className="card">
+            <div className="card" style={{overflowY: "auto",scrollbarWidth:"none"}}>
                 <h2>Message from CEO</h2>
                 <p>◈ Our employees are the most valuable assets of our organization!</p><br></br>
                 <p>◈ We believe in “विद्वान सर्वत्र पूज्यते (vidvaan sarvatr poojyate)” which means “intelligent people are worshipped everywhere”!</p><br></br>
